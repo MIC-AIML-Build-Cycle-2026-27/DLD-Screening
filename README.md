@@ -70,6 +70,15 @@ Update this tree as the project grows. Add folders such as `experiments/`, `eval
 
 ## Getting Started
 
+### Review 1 dataset research
+
+The [dataset contribution](docs/research/review1_summary.md) includes an eight-source comparison,
+local acquisition/validation scripts, tests and a reproducible audit notebook.
+See the [team handoff](docs/research/team_handoff.md) for installation and commands.
+The acquired audio subset is a preprocessing demonstration with missing individual ages;
+it is not eligible for chronological-age model evaluation. Raw recordings and participant
+metadata are intentionally excluded from this public repository.
+
 ### Prerequisites
 
 - TBD (language runtime, package manager, GPU/API access, etc.)
