@@ -1,0 +1,43 @@
+{
+  "transcripts_scanned": 303,
+  "valid_age_labels": 303,
+  "invalid_or_missing_ages": 0,
+  "age_folder_mismatches": 5,
+  "workbook_age_conflicts": 20,
+  "valid_media_references": 303,
+  "independently_identified_children": 0,
+  "identity_unresolved_recordings": 303,
+  "possible_repeat_identity_recordings": 89,
+  "duplicate_recording_rows": 0,
+  "duplicate_audio_rows": 0,
+  "wav_files_available": 1,
+  "verified_pairs": 1,
+  "missing_audio": 302,
+  "selected_recordings": 15,
+  "selected_per_age_group": {
+    "4": 3,
+    "5": 3,
+    "6": 3,
+    "7": 3,
+    "8": 3
+  },
+  "transcripts_per_age_group": {
+    "4": 26,
+    "5": 54,
+    "6": 60,
+    "7": 63,
+    "8": 57,
+    "9": 43
+  },
+  "age_min": 3.4714248068064366,
+  "age_max": 9.896305194494069,
+  "child_only_segments_created": 0,
+  "eligible_for_age_model": 0,
+  "limitations": [
+    "Recording IDs and matching names do not prove independent children.",
+    "No verified participant map supplied unless explicitly configured.",
+    "Full-session WAV includes other speakers; segmentation remains planned.",
+    "Transcript media matching is metadata evidence, not voice identification.",
+    "TalkBank access and permitted-use conditions apply; no bulk download."
+  ]
+}

@@ -1,5 +1,7 @@
 # Dataset handoff
 
+Phase 2 continuation: see [OCSC processing](ocsc_processing.md) and [current aggregate audit](ocsc/audit_summary.json). The Review 1 results below are retained as a historical snapshot.
+
 **Usable now: audio-processing demonstration and verified Ohio participant metadata. Not yet usable: supervised age-model training/evaluation.**
 
 ## Local files and joins

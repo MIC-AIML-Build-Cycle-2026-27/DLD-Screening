@@ -1,5 +1,7 @@
 # Validation record — 24 October 2026
 
+Phase 2 continuation: see [OCSC processing](ocsc_processing.md) and [current aggregate audit](ocsc/audit_summary.json). The Review 1 results below are retained as a historical snapshot.
+
 - Python 3.12.14; direct dependency versions are in requirements.txt and requirements-dev.txt.
 - `python -m pytest -q --tb=short`: **16 passed**. Fixtures are explicitly synthetic software tests, not research samples.
 - `python -m ruff check .`: passed, including the notebook.
