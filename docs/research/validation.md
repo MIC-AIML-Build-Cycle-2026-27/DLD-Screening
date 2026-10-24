@@ -13,4 +13,6 @@
 
 Initial checks encountered Windows sandbox temporary-folder restrictions and a slow/interrupted download. Tests passed after running with the required filesystem access. Acquisition resumed from CRC-verified cached members. This is why download success is based on final per-member verification, not the first attempt.
 
+The first GitHub CI run exposed a test-collection import-path difference between `pytest` and `python -m pytest`. The repository now explicitly configures its root on pytest's import path so both entry points resolve the source package.
+
 Audio decoding is not manual transcription verification, diarization or a near-duplicate audit. Those remain outstanding. No trained model, clinical performance or cross-source generalization was evaluated.
