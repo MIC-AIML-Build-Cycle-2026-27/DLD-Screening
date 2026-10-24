@@ -1,0 +1,53 @@
+{
+  "ocsc": {
+    "children": 303,
+    "rows": 303,
+    "age_min": 4.102729894827249,
+    "age_max": 9.935660506502396,
+    "age_mean": 7.1684059064275045,
+    "age_groups": {
+      "4": 26,
+      "5": 54,
+      "6": 60,
+      "7": 63,
+      "8": 57,
+      "9": 43
+    },
+    "missing_age": 0,
+    "duplicate_child_ids": 0,
+    "downloaded_recordings": 0,
+    "balanced_4_to_under9_children_per_age": 26,
+    "balanced_4_to_under9_total": 130
+  },
+  "audio_demo": {
+    "recordings": 20,
+    "children": 10,
+    "missing_age": 20,
+    "missing_transcript": 20,
+    "missing_clinical_label": 20,
+    "duplicate_recording_ids": 0,
+    "duplicate_audio_hashes": 0,
+    "duration_seconds": 60.95172335600907,
+    "duration_min": 2.027324263038549,
+    "duration_max": 4.779047619047619,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      1
+    ],
+    "eligible_recordings": 0,
+    "languages": {
+      "English": 20
+    },
+    "tasks": {
+      "sentence_repetition": 20
+    }
+  },
+  "limitations": [
+    "OCSC is a participant roster, not an audio dataset acquired here.",
+    "Zenodo has no individual ages; do not train age regression on it.",
+    "No combined source-age association can be estimated from these disjoint inputs.",
+    "Balanced list is a metadata-only proposal, not an executable age experiment."
+  ]
+}

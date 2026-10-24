@@ -105,3 +105,20 @@ Thumbs.db
 # ------------------------------------------------------------------
 *.log
 logs/
+
+# Child-level records, recordings and transcripts remain local only.
+*.wav
+*.flac
+*.mp3
+*.cha
+data/metadata/unified_metadata.csv
+data/metadata/ocsc_children.csv
+data/metadata/eligible_metadata.csv
+data/metadata/download_manifest.csv
+notebooks/*.executed.ipynb
+
+# OCSC participant-level outputs and identity material stay local.
+processed/
+transcript_inventory.csv
+.identity.key
+*participant_map*.csv
